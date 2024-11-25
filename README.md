@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Project Management Dashboard
+Overview
+The Project Management Dashboard is a web-based application that allows users to manage projects, tasks, and team members efficiently. The application supports drag-and-drop task management, data visualization, and state management using Redux.
+## Features
+Project Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add, view, and manage multiple projects.
+Display project details, including associated tasks.
+Task Management
 
-## Available Scripts
+Drag-and-drop tasks between different states: To Do, In Progress, Done.
+Add new tasks to specific projects.
+Data Visualization
 
-In the project directory, you can run:
+Real-time task distribution chart using a bar chart (powered by react-chartjs-2).
+Persistent State Management
 
-### `npm start`
+Redux state is persisted using localStorage.
+Modern UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Built with React-Bootstrap for a responsive and visually appealing interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+Frontend: React.js
+State Management: Redux Toolkit
+Drag-and-Drop: React DnD
+Charts: Chart.js via react-chartjs-2
+UI Framework: React-Bootstrap
+Validation: Formik and Yup
 
-### `npm test`
+## How to Use
+1. Project Management
+Navigate to the Dashboard.
+Add new projects using the "Add a New Project" form.
+View project details by clicking the "View Details" button on a project card.
+2. Task Management
+In the Project Details page:
+Add tasks using the "Add a New Task" form.
+Drag and drop tasks between columns (To Do, In Progress, Done).
+3. Clear All Data
+Click the "Clear All" button to reset the Redux state and localStorage.
+4. Task Distribution Chart
+View the bar chart on the dashboard for a real-time overview of task distribution.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Management Dashboard
+Overview
+The Project Management Dashboard is a web-based application that allows users to manage projects, tasks, and team members efficiently. The application supports drag-and-drop task management, data visualization, and state management using Redux.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features
+Project Management
 
-### `npm run eject`
+Add, view, and manage multiple projects.
+Display project details, including associated tasks.
+Task Management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Drag-and-drop tasks between different states: To Do, In Progress, Done.
+Add new tasks to specific projects.
+Data Visualization
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Real-time task distribution chart using a bar chart (powered by react-chartjs-2).
+Persistent State Management
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Redux state is persisted using localStorage.
+Modern UI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Styling
+React-Bootstrap is used for consistent UI styling.
+Custom CSS styles can be added in index.css for additional tweaks.
